@@ -45,6 +45,4 @@ public enum DirectionEnum implements DirectionInterface {
 	}
 	*/
 
-	
-
 }
