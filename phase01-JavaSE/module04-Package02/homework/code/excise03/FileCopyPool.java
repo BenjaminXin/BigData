@@ -10,13 +10,11 @@ public class FileCopyPool {
         Scanner scanner = new Scanner(System.in);
 
         // 输入要拷贝的目录路径 以及 目标目录的路径
-//        System.out.println("请输入要拷贝的目录路径:");
-//        String filepath = scanner.next();
-//        System.out.println("请输入目标目录路径:");
-//        String topath = scanner.next();
+        System.out.println("请输入要拷贝的目录路径:");
+        String filepath = scanner.next();
+        System.out.println("请输入目标目录路径:");
+        String topath = scanner.next();
 
-        String filepath = "/Users/benjamin/test/testdeletebak";
-        String topath = "/Users/benjamin/test/testdelete";
 
         // 1. 创建线程池
         ExecutorService executorService = Executors.newFixedThreadPool(10);
